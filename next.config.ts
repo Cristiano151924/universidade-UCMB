@@ -1,9 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
-  cacheComponents: true,
-  partialPrefetching: true,
+  // Todas as telas dependem de quem está logado (dados por usuário), então não usamos
+  // Cache Components / pré-renderização parcial: as páginas são sempre geradas na hora.
+  cacheComponents: false,
   turbopack: {
     rules: {
       "*.css": {

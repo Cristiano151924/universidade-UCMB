@@ -1,0 +1,13 @@
+{
+  "module": { "title": "Módulo Inicial", "position": 1 },
+  "lessons": [
+    {
+      "position": 1,
+      "title": "Aula 01",
+      "youtube_id": "Mcz1o4hrikg",
+      "source_url": "https://youtube.com/shorts/Mcz1o4hrikg",
+      "duration_seconds": 102,
+      "questions": []
+    }
+  ]
+}
